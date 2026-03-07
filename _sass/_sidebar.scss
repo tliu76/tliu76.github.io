@@ -69,31 +69,36 @@
    Author profile and links
    ========================================================================== */
 .profile_box{
-  @include breakpoint($large) {
-    display: block;
-  }
   display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
   justify-content: flex-start;
   align-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
+
+  @include breakpoint($large) {
+    display: flex;
+  }
 }
 
 .author__avatar {
-  display: table-cell;
-  vertical-align: top;
-  width: 75px;
+  display: block;
+  width: 84px;
+  flex: 0 0 84px;
   // set width only, for non-square avatars
   // height: 36px;
 
   @include breakpoint($large) {
     display: block;
-    width: auto;
+    width: 96px;
+    flex: 0 0 96px;
     height: auto;
   }
 
   img {
-    max-width: 175px;
-    min-width: 75px;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
     border-radius: 50%;
 
     @include breakpoint($large) {
@@ -104,27 +109,29 @@
 }
 
 .author__content {
-  display: table-cell;
+  display: block;
   vertical-align: top;
-  padding-left: 10px;
-  min-width: 120px;
+  padding-left: 0;
+  min-width: 0;
+  flex: 1 1 140px;
   // padding-right: 25px;
   line-height: 1;
 
   @include breakpoint($large) {
     display: block;
-    width: 100%;
+    width: auto;
+    flex: 1 1 0;
     padding-left: 0;
     padding-right: 0;
   }
 }
 
 .author__name {
-  margin: 0;
+  margin: 0 0 0.25rem;
 
   @include breakpoint($large) {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 2px;
+    margin-bottom: 8px;
   }
 }
 
@@ -147,12 +154,13 @@
 
 .author__urls-wrapper {
   position: relative;
-  display: table-cell;
+  display: block;
   vertical-align: middle;
   font-family: $sans-serif;
   z-index: 10;
   position: relative;
-  margin-left: auto;
+  margin-left: 0;
+  width: 100%;
   cursor: pointer;
 
   li:last-child {
@@ -163,6 +171,7 @@
 
   @include breakpoint($large) {
     display: block;
+    width: 100%;
   }
 
   button {

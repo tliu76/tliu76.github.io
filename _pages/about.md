@@ -18,12 +18,6 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 <section class="about-hero">
-  <div class="about-hero__media">
-    <div class="about-hero__portrait-wrap">
-      <img class="about-hero__portrait" src="/images/cv%20photo.jpg" alt="Portrait of Tanxin (Tracy) Liu" loading="eager" />
-    </div>
-    <img class="about-hero__pattern" src="/images/research-hero.svg" alt="" aria-hidden="true" loading="lazy" />
-  </div>
   <div class="about-hero__content">
     <p class="about-hero__kicker">Precision Medicine | Population Health</p>
     <h1 class="about-hero__title">Tanxin (Tracy) Liu</h1>
