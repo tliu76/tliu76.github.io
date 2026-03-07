@@ -1,0 +1,79 @@
+<svg width="860" height="520" viewBox="0 0 860 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="20" y1="20" x2="840" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EEF2F6"/>
+      <stop offset="1" stop-color="#E4E9F0"/>
+    </linearGradient>
+    <linearGradient id="cellOuter" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E3D2EA"/>
+      <stop offset="1" stop-color="#C79BCB"/>
+    </linearGradient>
+    <linearGradient id="cellInner" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#C29CC6"/>
+      <stop offset="1" stop-color="#A66FAF"/>
+    </linearGradient>
+    <linearGradient id="stemInner" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F589C2"/>
+      <stop offset="1" stop-color="#C960A4"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10Z" fill="#4BBBE9"/>
+    </marker>
+  </defs>
+
+  <rect x="20" y="20" width="820" height="480" rx="8" fill="url(#bg)" stroke="#B7BFCB" stroke-width="2"/>
+
+  <g transform="translate(0 6)">
+    <!-- arrows -->
+    <path d="M540 90C500 102 470 126 448 158" stroke="#4BBBE9" stroke-width="7" stroke-linecap="round" fill="none" marker-end="url(#arrow)"/>
+    <path d="M430 218C430 236 430 246 430 262" stroke="#4BBBE9" stroke-width="7" stroke-linecap="round" marker-end="url(#arrow)"/>
+    <path d="M410 320C382 336 362 360 348 386" stroke="#4BBBE9" stroke-width="7" stroke-linecap="round" fill="none" marker-end="url(#arrow)"/>
+    <path d="M450 320C478 336 500 360 516 386" stroke="#4BBBE9" stroke-width="7" stroke-linecap="round" fill="none" marker-end="url(#arrow)"/>
+    <path d="M560 280H472" stroke="#2B4C72" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <!-- Stem cell -->
+    <g>
+      <circle cx="540" cy="88" r="34" fill="url(#cellOuter)"/>
+      <circle cx="540" cy="88" r="26" fill="#EBD6ED"/>
+      <ellipse cx="540" cy="88" rx="18" ry="14" fill="url(#stemInner)"/>
+    </g>
+
+    <!-- Lymphoid stem cell -->
+    <g>
+      <circle cx="430" cy="186" r="34" fill="url(#cellOuter)"/>
+      <circle cx="430" cy="186" r="26" fill="#E9D2EB"/>
+      <ellipse cx="430" cy="186" rx="18" ry="14" fill="url(#cellInner)"/>
+    </g>
+
+    <!-- Lymphoid blast -->
+    <g>
+      <circle cx="430" cy="286" r="34" fill="url(#cellOuter)"/>
+      <circle cx="430" cy="286" r="26" fill="#E8D0EA"/>
+      <ellipse cx="430" cy="286" rx="18" ry="14" fill="url(#cellInner)"/>
+    </g>
+
+    <!-- B lymphocyte -->
+    <g>
+      <circle cx="330" cy="418" r="36" fill="url(#cellOuter)"/>
+      <circle cx="330" cy="418" r="28" fill="#E6CCE8"/>
+      <ellipse cx="330" cy="418" rx="20" ry="16" fill="url(#cellInner)"/>
+    </g>
+
+    <!-- T lymphocyte -->
+    <g>
+      <circle cx="530" cy="418" r="36" fill="url(#cellOuter)"/>
+      <circle cx="530" cy="418" r="28" fill="#E6CCE8"/>
+      <ellipse cx="530" cy="418" rx="20" ry="16" fill="url(#cellInner)"/>
+    </g>
+
+    <!-- labels -->
+    <text x="540" y="36" text-anchor="middle" fill="#1F2A39" font-size="34" font-family="Helvetica, Arial, sans-serif">Stem cell</text>
+    <text x="430" y="150" text-anchor="middle" fill="#1F2A39" font-size="30" font-family="Helvetica, Arial, sans-serif">Lymphoid stem cell</text>
+    <text x="430" y="246" text-anchor="middle" fill="#1F2A39" font-size="30" font-family="Helvetica, Arial, sans-serif">Lymphoid blast</text>
+    <text x="220" y="496" text-anchor="middle" fill="#1F2A39" font-size="34" font-family="Helvetica, Arial, sans-serif">B lymphocyte</text>
+    <text x="520" y="496" text-anchor="middle" fill="#1F2A39" font-size="34" font-family="Helvetica, Arial, sans-serif">T lymphocyte</text>
+
+    <text x="566" y="268" fill="#1F2A39" font-size="32" font-family="Helvetica, Arial, sans-serif">ALL develops</text>
+    <text x="566" y="304" fill="#1F2A39" font-size="32" font-family="Helvetica, Arial, sans-serif">from this cell</text>
+  </g>
+</svg>

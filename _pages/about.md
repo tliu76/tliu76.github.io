@@ -36,26 +36,26 @@ redirect_from:
 
 <section class="about-pillar-grid">
   <article class="about-pillar-card">
-    <img src="/images/pillar-genomics.svg" alt="Cancer genomics illustration" loading="lazy" />
+    <img src="/images/motif.png" alt="Bioinformatics illustration" loading="lazy" />
     <div class="about-pillar-card__body">
-      <h3>Cancer Genomics</h3>
-      <p>I build scalable pipelines to detect SNVs, indels, structural variants, and copy number alterations from paired tumor-normal sequencing data.</p>
+      <h3>Bioinformatics</h3>
+      <p>I build high-throughput and reproducible computational pipelines for large genomic cohorts, from variant calling to integrative multi-omics analysis.</p>
     </div>
   </article>
 
   <article class="about-pillar-card">
-    <img src="/images/pillar-epidemiology.svg" alt="Genetic epidemiology illustration" loading="lazy" />
+    <img src="/images/Manhattan_Plot.png" alt="Genetic epidemiology Manhattan plot" loading="lazy" />
     <div class="about-pillar-card__body">
       <h3>Genetic Epidemiology</h3>
-      <p>I run meta-analyses, conditional analyses, and fine-mapping to identify risk loci and improve cross-ancestry prediction of childhood leukemia susceptibility.</p>
+      <p>I perform population-level analyses, risk modeling, and cross-cohort inference to uncover disease patterns and quantify genetic and environmental determinants.</p>
     </div>
   </article>
 
   <article class="about-pillar-card">
-    <img src="/images/pillar-bioinformatics.svg" alt="Bioinformatics pipeline illustration" loading="lazy" />
+    <img src="/images/pillar-cancer-genomics-cool.svg" alt="Acute lymphoblastic leukemia lineage diagram illustration" loading="lazy" />
     <div class="about-pillar-card__body">
-      <h3>Bioinformatics Engineering</h3>
-      <p>I design reproducible Snakemake and long-read analysis workflows for large genomic cohorts in high-performance computing environments.</p>
+      <h3>Cancer Genomics</h3>
+      <p>I investigate somatic evolution and structural variation in hematological malignancies to connect genomic signatures with clinically meaningful biology.</p>
     </div>
   </article>
 </section>
@@ -73,9 +73,11 @@ redirect_from:
 I have published more than 17 papers at the top journal with total <a href='https://scholar.google.com/citations?user=Ge5lH_kAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=Ge5lH_kAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
 {% endcomment %}
 
+<span class='anchor' id='news'></span>
 # News
 - *2025.08*: I passed my qualifying exam.
 
+<span class='anchor' id='publications'></span>
 # Selected Publications
 
 <div class="publication-stack">
@@ -120,20 +122,20 @@ I have published more than 17 papers at the top journal with total <a href='http
   </article>
 </div>
 
-{% comment %}
+<span class='anchor' id='honors-and-awards'></span>
 # Honors and Awards
-- *2020.07* Peking University Best Thesis Award
-{% endcomment %}
+- *2020.07*: Peking University Best Thesis Award
 
+<span class='anchor' id='education'></span>
 # Education
 - *2022.08 - present*: PhD candidate in Genetic Epidemiology, University of Southern California.
 - *2020.08 - 2022.05*: Master of Health Science in Epidemiology, Johns Hopkins University.
 - *2015.09 - 2020.07*: Bachelor of Biomedicine, Minor in Psychology, Peking University Health Science Center.
 
+<span class='anchor' id='invited-talks'></span>
 # Invited Talks
 - *2024.12*: 66th American Society of Hematology Annual Meeting and Exposition. Session 614: Genomic Determinants of Outcomes in ALL.
 
-{% comment %}
+<span class='anchor' id='internships'></span>
 # Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
-{% endcomment %}
+- To be updated.

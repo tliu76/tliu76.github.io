@@ -1,0 +1,106 @@
+<svg width="860" height="520" viewBox="0 0 860 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <g id="cluster-a" fill="currentColor" opacity="0.92">
+      <circle cx="3" cy="360" r="2.3"/>
+      <circle cx="6" cy="344" r="2.2"/>
+      <circle cx="9" cy="334" r="2.2"/>
+      <circle cx="12" cy="354" r="2.2"/>
+      <circle cx="15" cy="342" r="2.2"/>
+      <circle cx="18" cy="330" r="2.2"/>
+      <circle cx="21" cy="346" r="2.2"/>
+      <circle cx="24" cy="336" r="2.2"/>
+      <circle cx="27" cy="324" r="2.2"/>
+    </g>
+    <g id="cluster-b" fill="currentColor" opacity="0.92">
+      <circle cx="4" cy="350" r="2.2"/>
+      <circle cx="7" cy="338" r="2.2"/>
+      <circle cx="10" cy="326" r="2.2"/>
+      <circle cx="13" cy="344" r="2.2"/>
+      <circle cx="16" cy="332" r="2.2"/>
+      <circle cx="19" cy="318" r="2.2"/>
+      <circle cx="22" cy="340" r="2.2"/>
+      <circle cx="25" cy="328" r="2.2"/>
+      <circle cx="28" cy="314" r="2.2"/>
+    </g>
+  </defs>
+
+  <rect x="12" y="12" width="836" height="496" fill="#DCDCDC" stroke="#111111" stroke-width="2"/>
+
+  <!-- plotting panel -->
+  <rect x="58" y="26" width="760" height="430" fill="#DCDCDC" stroke="#303030" stroke-width="1.5"/>
+
+  <!-- horizontal guide lines -->
+  <g stroke="#C7C7C7" stroke-width="1.2">
+    <line x1="84" y1="384" x2="744" y2="384"/>
+    <line x1="84" y1="314" x2="744" y2="314"/>
+    <line x1="84" y1="244" x2="744" y2="244"/>
+    <line x1="84" y1="174" x2="744" y2="174"/>
+  </g>
+
+  <!-- threshold lines -->
+  <line x1="84" y1="286" x2="744" y2="286" stroke="#B7B7B7" stroke-width="2" stroke-dasharray="8 6"/>
+  <line x1="84" y1="328" x2="744" y2="328" stroke="#D1D1D1" stroke-width="1.6" stroke-dasharray="4 5"/>
+
+  <!-- axes -->
+  <line x1="84" y1="384" x2="744" y2="384" stroke="#454545" stroke-width="2"/>
+  <line x1="84" y1="44" x2="84" y2="384" stroke="#454545" stroke-width="2"/>
+
+  <!-- chromosome point clouds -->
+  <g>
+    <g style="color:#1E24E7"><use href="#cluster-a" x="84" y="-6"/><use href="#cluster-b" x="84" y="-4"/><circle cx="101" cy="307" r="3.2"/></g>
+    <g style="color:#1A2BD8"><use href="#cluster-a" x="114" y="-2"/><use href="#cluster-b" x="114" y="0"/></g>
+    <g style="color:#F4EF16"><use href="#cluster-a" x="144" y="2"/><use href="#cluster-b" x="144" y="4"/></g>
+    <g style="color:#ECEA79"><use href="#cluster-a" x="174" y="-1"/><use href="#cluster-b" x="174" y="2"/></g>
+    <g style="color:#1FE92B"><use href="#cluster-a" x="204" y="0"/><use href="#cluster-b" x="204" y="-5"/><circle cx="221" cy="306" r="3.2"/></g>
+    <g style="color:#BDBDBD"><use href="#cluster-a" x="234" y="4"/><use href="#cluster-b" x="234" y="7"/></g>
+    <g style="color:#9DD1E2"><use href="#cluster-a" x="264" y="1"/><use href="#cluster-b" x="264" y="-1"/><circle cx="281" cy="272" r="3.4"/></g>
+    <g style="color:#8F27D9"><use href="#cluster-a" x="294" y="-3"/><use href="#cluster-b" x="294" y="-7"/><circle cx="309" cy="244" r="3.4"/><circle cx="311" cy="232" r="3.6"/><circle cx="310" cy="220" r="3.8"/></g>
+    <g style="color:#F3AD10"><use href="#cluster-a" x="324" y="2"/><use href="#cluster-b" x="324" y="1"/></g>
+    <g style="color:#F20CF0"><use href="#cluster-a" x="354" y="-6"/><use href="#cluster-b" x="354" y="-10"/><circle cx="370" cy="250" r="3.3"/><circle cx="370" cy="238" r="3.5"/><circle cx="370" cy="226" r="3.5"/></g>
+    <g style="color:#FF1818"><use href="#cluster-a" x="384" y="-2"/><use href="#cluster-b" x="384" y="-5"/></g>
+    <g style="color:#9BE39E"><use href="#cluster-a" x="414" y="2"/><use href="#cluster-b" x="414" y="0"/></g>
+    <g style="color:#B02D2D"><use href="#cluster-a" x="444" y="0"/><use href="#cluster-b" x="444" y="-2"/></g>
+    <g style="color:#000000"><use href="#cluster-a" x="474" y="1"/><use href="#cluster-b" x="474" y="-3"/><circle cx="490" cy="244" r="3.4"/><circle cx="490" cy="230" r="3.6"/><circle cx="491" cy="218" r="3.7"/></g>
+    <g style="color:#EDC3D6"><use href="#cluster-a" x="504" y="3"/><use href="#cluster-b" x="504" y="2"/></g>
+    <g style="color:#4C88B5"><use href="#cluster-a" x="534" y="2"/><use href="#cluster-b" x="534" y="1"/></g>
+    <g style="color:#B64689"><use href="#cluster-a" x="564" y="1"/><use href="#cluster-b" x="564" y="-2"/></g>
+    <g style="color:#F1A386"><use href="#cluster-a" x="594" y="2"/><use href="#cluster-b" x="594" y="-1"/></g>
+    <g style="color:#C58AE4"><use href="#cluster-a" x="624" y="1"/><use href="#cluster-b" x="624" y="-1"/><circle cx="640" cy="234" r="3.3"/><circle cx="640" cy="220" r="3.5"/></g>
+    <g style="color:#0D7A2F"><use href="#cluster-a" x="654" y="0"/><use href="#cluster-b" x="654" y="-3"/></g>
+    <g style="color:#CFCB1D"><use href="#cluster-a" x="684" y="4"/><use href="#cluster-b" x="684" y="1"/></g>
+    <g style="color:#1324B8"><use href="#cluster-a" x="714" y="-2"/><use href="#cluster-b" x="714" y="-5"/><circle cx="730" cy="244" r="3.4"/><circle cx="730" cy="214" r="3.8"/><circle cx="730" cy="188" r="3.8"/><circle cx="730" cy="162" r="4"/><circle cx="730" cy="146" r="4.2"/></g>
+  </g>
+
+  <!-- tick marks -->
+  <g stroke="#555555" stroke-width="1.4">
+    <line x1="99" y1="384" x2="99" y2="391"/><line x1="129" y1="384" x2="129" y2="391"/><line x1="159" y1="384" x2="159" y2="391"/>
+    <line x1="189" y1="384" x2="189" y2="391"/><line x1="219" y1="384" x2="219" y2="391"/><line x1="249" y1="384" x2="249" y2="391"/>
+    <line x1="279" y1="384" x2="279" y2="391"/><line x1="309" y1="384" x2="309" y2="391"/><line x1="339" y1="384" x2="339" y2="391"/>
+    <line x1="369" y1="384" x2="369" y2="391"/><line x1="399" y1="384" x2="399" y2="391"/><line x1="429" y1="384" x2="429" y2="391"/>
+    <line x1="459" y1="384" x2="459" y2="391"/><line x1="489" y1="384" x2="489" y2="391"/><line x1="519" y1="384" x2="519" y2="391"/>
+    <line x1="549" y1="384" x2="549" y2="391"/><line x1="579" y1="384" x2="579" y2="391"/><line x1="609" y1="384" x2="609" y2="391"/>
+    <line x1="639" y1="384" x2="639" y2="391"/><line x1="669" y1="384" x2="669" y2="391"/><line x1="699" y1="384" x2="699" y2="391"/>
+    <line x1="729" y1="384" x2="729" y2="391"/>
+  </g>
+
+  <!-- y-axis labels -->
+  <g fill="#333333" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="end">
+    <text x="74" y="390">0</text>
+    <text x="74" y="320">5</text>
+    <text x="74" y="250">10</text>
+    <text x="74" y="180">15</text>
+  </g>
+
+  <!-- x-axis labels -->
+  <g fill="#333333" font-size="18" font-family="Helvetica, Arial, sans-serif" text-anchor="middle">
+    <text x="99" y="412">1</text><text x="129" y="412">2</text><text x="159" y="412">3</text><text x="189" y="412">4</text>
+    <text x="219" y="412">5</text><text x="249" y="412">6</text><text x="279" y="412">7</text><text x="309" y="412">8</text>
+    <text x="339" y="412">9</text><text x="369" y="412">10</text><text x="399" y="412">11</text><text x="429" y="412">12</text>
+    <text x="459" y="412">13</text><text x="489" y="412">14</text><text x="519" y="412">15</text><text x="549" y="412">16</text>
+    <text x="579" y="412">17</text><text x="609" y="412">18</text><text x="639" y="412">19</text><text x="669" y="412">20</text>
+    <text x="699" y="412">21</text><text x="729" y="412">22</text>
+  </g>
+
+  <text x="414" y="448" fill="#222222" font-size="36" font-family="Helvetica, Arial, sans-serif" text-anchor="middle">chromosome</text>
+  <text x="30" y="246" fill="#222222" font-size="38" font-family="Helvetica, Arial, sans-serif" transform="rotate(-90 30 246)" text-anchor="middle">-log10(P)</text>
+</svg>
