@@ -10,6 +10,7 @@ title                    : "Tanxin Liu"
 description              : ". "
 repository               : "tliu76/tliu76.github.io"
 google_scholar_stats_use_cdn : true
+notes_site_url           : "https://tliu76.github.io/notes-site" # no trailing slash
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/

@@ -1,0 +1,26 @@
+categories:
+  - name: "Genetics"
+    description: "Core statistical genetics and transcriptomics notes."
+    notes:
+      - title: "Genome-wide association studies"
+        path: "genetics/genome-wide-association-studies/"
+      - title: "Linkage Disequilibrium Score Regression"
+        path: "genetics/linkage-disequilibrium-score-regression/"
+      - title: "Polygenic Risk Score"
+        path: "genetics/polygenic-risk-score/"
+      - title: "Transcriptome-wide association studies"
+        path: "genetics/transcriptome-wide-association-studies/"
+
+  - name: "Linear algebra"
+    description: "Intuition-first matrix decomposition notes."
+    notes:
+      - title: "Calculate PCA by hand (via eigen-decomposition)"
+        path: "linear-algebra/calculate-pca-by-hand-via-eigen-decomposition/"
+      - title: "Calculate SVD by hand (and decompose Spongebob)"
+        path: "linear-algebra/calculate-svd-by-hand-and-decompose-spongebob/"
+
+  - name: "Bayesian Network"
+    description: "Probabilistic graph model fundamentals."
+    notes:
+      - title: "An Intuitive Explanation of Bayesian Network"
+        path: "bayesian-network/an-intuitive-explanation-of-bayesian-network/"
