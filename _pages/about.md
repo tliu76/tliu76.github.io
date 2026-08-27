@@ -85,7 +85,7 @@ I have published more than 17 papers at the top journal with total <a href='http
     <h3><a href="https://www.nature.com/articles/s41375-024-02407-3">V(D)J recombination, somatic structural variation and environmental modifiers in childhood acute lymphoblastic leukemia</a></h3>
     <p class="publication-card__authors"><strong>Tanxin Liu</strong>, Keren Xu, Anmol Pardeshi, Swe Swe Myint, Alice Y. Kang, Libby M. Morimoto, Michael R. Lieber, Joseph L. Wiemels, Scott C. Kogan, Catherine Metayer, Adam J. de Smith</p>
     <ul>
-      <li>Developed bioinformatics pipelines for somatic variants (SNV/indels/structural variants/copy number alterations) discovery and identified driver mutations and secondary genetic events in childhood acute lymphoblastic leukemia patients using over 30‑terabyte whole‑genome sequencing data of paired tumor‑normal samples on high‑performance computing cluster.</li>
+      <li>Developed bioinformatics pipelines for somatic variants (SNV/indels/structural variants/copy number alterations) discovery and identified driver mutations and secondary genetic events in childhood acute lymphoblastic leukemia patients using whole‑genome sequencing data of paired tumor‑normal samples on high‑performance computing cluster.</li>
       <li>Conducted motif enrichment and de novo motif scanning around deletion breakpoints in immune receptor regions.</li>
       <li>Performed mutational signature analysis with matrix-factorization-based methods.</li>
     </ul>
