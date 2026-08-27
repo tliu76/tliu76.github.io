@@ -75,6 +75,7 @@ I have published more than 17 papers at the top journal with total <a href='http
 
 <span class='anchor' id='news'></span>
 # News
+- *2026.05*: Our preprint on RAG-mediated structural variation and relapse risk in acute lymphoblastic leukemia is out on medRxiv.
 - *2025.08*: I passed my qualifying exam.
 
 <span class='anchor' id='publications'></span>
@@ -82,7 +83,18 @@ I have published more than 17 papers at the top journal with total <a href='http
 
 <div class="publication-stack">
   <article class="publication-card">
-    <h3><a href="https://www.nature.com/articles/s41375-024-02407-3">V(D)J recombination, somatic structural variation and environmental modifiers in childhood acute lymphoblastic leukemia</a></h3>
+    <h3><a href="https://doi.org/10.64898/2026.05.21.26353542">RAG-mediated structural variation and its impact on relapse risk in acute lymphoblastic leukemia</a></h3>
+    <p class="publication-card__badge">medRxiv preprint, 2026</p>
+    <p class="publication-card__authors"><strong>Tanxin Liu</strong>, Yaqi Li, Chenxi Wang, Cameron J. Clark, Nathan Anderson, Erin Marcotte, Michael R. Lieber, Suchitra Swaminathan, Joseph L. Wiemels, Logan G. Spector, Vijay G. Sankaran, Charles Fries, Adam J. de Smith</p>
+    <ul>
+      <li>Led the analysis of RAG-mediated structural variants and relapse risk in a childhood B-ALL cohort, integrating WES, WGS, and RNA-seq with MRD status, survival, and time-to-relapse.</li>
+      <li>Established an association with relapse in survival models, including among MRD-negative patients.</li>
+    </ul>
+  </article>
+
+  <article class="publication-card">
+    <h3><a href="https://www.nature.com/articles/s41375-024-02407-3">Early-life tobacco exposure is causally implicated in aberrant RAG-mediated recombination in childhood acute lymphoblastic leukemia</a></h3>
+    <p class="publication-card__badge">Leukemia, 2024</p>
     <p class="publication-card__authors"><strong>Tanxin Liu</strong>, Keren Xu, Anmol Pardeshi, Swe Swe Myint, Alice Y. Kang, Libby M. Morimoto, Michael R. Lieber, Joseph L. Wiemels, Scott C. Kogan, Catherine Metayer, Adam J. de Smith</p>
     <ul>
       <li>Developed bioinformatics pipelines for somatic variants (SNV/indels/structural variants/copy number alterations) discovery and identified driver mutations and secondary genetic events in childhood acute lymphoblastic leukemia patients using whole‑genome sequencing data of paired tumor‑normal samples on high‑performance computing cluster.</li>
@@ -120,22 +132,60 @@ I have published more than 17 papers at the top journal with total <a href='http
       <li>Developed long-read analysis pipelines and applied machine learning methods for leukemia subtype classification.</li>
     </ul>
   </article>
+
+  <article class="publication-card">
+    <h3>Single-cell multiomic mapping of genetic predisposition to childhood B-cell acute lymphoblastic leukemia</h3>
+    <p class="publication-card__badge">Submitted to Cancer Discovery, 2026</p>
+    <p class="publication-card__authors">Alexander J. Lee, Anna-Lena Neehus, Lara Wahlster, Gaurav Agarwal, Chunyan Weng, Aoi Zhang, <strong>Tanxin Liu</strong>, Samuel Shelton, Tian Ye, Leonardo della Volpe, Ofir Cohn, Mark Poeschla, Elizabeth King, Seung-Ah Ha, Alexander Turvey, Adam J. de Smith, Vijay G. Sankaran</p>
+  </article>
+
+  <article class="publication-card">
+    <h3>A functional genomics screen of human B-cell differentiation reveals convergent mechanisms of inherited childhood leukemia predisposition</h3>
+    <p class="publication-card__badge">Manuscript in preparation, 2026</p>
+    <p class="publication-card__authors">Lara Wahlster, Anna-Lena Neehus, Alexander J. Lee, Sanchi Mazumder, Parisa Mehrzad, Sarah Black, Letizia Messa, <strong>Tanxin Liu</strong>, Chunyan Weng, Alexis Caulier, Joshua Pak, Travis Fleming, Mateusz Antoszewski, Aoi Zhang, Seung-Ah Ha, Adam J. de Smith, Vijay G. Sankaran</p>
+  </article>
+
+  <article class="publication-card">
+    <h3><a href="https://doi.org/10.1002/ijc.34624">External validation of genetically predicted protein biomarkers for pancreatic cancer risk using aptamer-based plasma levels: a prospective analysis in the Atherosclerosis Risk in Communities (ARIC) Study</a></h3>
+    <p class="publication-card__badge">International Journal of Cancer, 2023</p>
+    <p class="publication-card__authors"><strong>Tanxin Liu</strong>, Corinne E. Joshu, Jiayun Lu, Anna Prizment, Nilanjan Chatterjee, Josef Coresh, Lang Wu, Elizabeth A. Platz</p>
+    <ul>
+      <li>Conducted proteomics analyses of genetically predicted protein biomarkers using aptamer-based plasma levels in a prospective cohort.</li>
+    </ul>
+  </article>
+
+  <article class="publication-card">
+    <h3><a href="https://doi.org/10.1093/gigascience/giae012">Proteome-wide association study and functional validation identify novel protein markers for pancreatic ductal adenocarcinoma</a></h3>
+    <p class="publication-card__badge">GigaScience, 2024</p>
+    <p class="publication-card__authors">Jingjing Zhu, Ke Wu, Shuai Liu, Alexandra Masca, Hua Zhong, Tai Yang, Dalia H. Ghoneim, Praveen Surendran, <strong>Tanxin Liu</strong>, Qizhi Yao, Tao Liu, Sarah Fahle, Adam Butterworth, Md A. Alam, Jaydutt V. Vadgama, Youping Deng, Hong-Wen Deng, Chong Wu, Yong Wu, Lang Wu</p>
+  </article>
 </div>
+
+<p class="publication-more">More publications on my <a href="https://scholar.google.com/citations?user=Ge5lH_kAAAAJ&hl=en">Google Scholar profile</a>.</p>
 
 <span class='anchor' id='honors-and-awards'></span>
 # Honors and Awards
 - *2020.07*: Peking University Best Thesis Award
 
+<span class='anchor' id='experience'></span>
+# Experience
+- *2022 - present*: **Pre-Doctoral Research Fellow**, Center for Genetic Epidemiology, University of Southern California — Los Angeles, CA.
+- *2020 - 2022*: **Statistical Programmer**, Johns Hopkins Medicine and Johns Hopkins Bloomberg School of Public Health — Baltimore, MD.
+
 <span class='anchor' id='education'></span>
 # Education
-- *2022.08 - present*: PhD candidate in Genetic Epidemiology, University of Southern California.
-- *2020.08 - 2022.05*: Master of Health Science in Epidemiology, Johns Hopkins University.
-- *2015.09 - 2020.07*: Bachelor of Biomedicine, Minor in Psychology, Peking University Health Science Center.
+- *2022.08 - present*: PhD in Genetic Epidemiology (Bioinformatics track), Keck School of Medicine, University of Southern California. GPA 3.72/4.0.
+- *2025*: Master of Science in Computer Science, Georgia Institute of Technology. GPA 3.9/4.0.
+- *2020.08 - 2022.05*: Master of Health Science in Epidemiology, Johns Hopkins Bloomberg School of Public Health. GPA 4.0/4.0.
+- *2015.09 - 2020.07*: Bachelor of Biomedicine, Minor in Psychology and Cognitive Science, Peking University Health Science Center.
 
 <span class='anchor' id='invited-talks'></span>
-# Invited Talks
-- *2024.12*: 66th American Society of Hematology Annual Meeting and Exposition. Session 614: Genomic Determinants of Outcomes in ALL.
+# Talks and Presentations
+- *2024.12*: 66th American Society of Hematology Annual Meeting and Exposition. Oral presentation, Session 614: Genomic Determinants of Outcomes in ALL.
+- *2024 Spring*: Center for Genetic Epidemiology, University of Southern California. Somatic tumor mutations and environmental modifiers in childhood acute lymphoblastic leukemia patients.
 
-<span class='anchor' id='internships'></span>
-# Internships
-- To be updated.
+<span class='anchor' id='skills'></span>
+# Skills
+- **Bioinformatics**: GATK, TCGA, GDC, SAMtools, PLINK, BioPython, Snakemake, Mamba, Conda, Bioconductor, AWS, Singularity, Docker.
+- **Machine learning**: deep learning, classical machine learning, variational inference, object-oriented programming.
+- **Programming**: Python, R, Snakemake, Linux/Unix, SAS, C++, Java.
