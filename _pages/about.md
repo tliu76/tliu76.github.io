@@ -20,7 +20,7 @@ redirect_from:
 <section class="about-hero">
   <div class="about-hero__content">
     <p class="about-hero__kicker">Precision Medicine | Population Health</p>
-    <h1 class="about-hero__title">Tanxin (Tracy) Liu</h1>
+    <h1 class="about-hero__title">Tanxin (Casey) Liu</h1>
     <p class="about-hero__subtitle">PhD Candidate in Epidemiology, Keck School of Medicine, University of Southern California</p>
     <p class="about-hero__intro">
       I focus on variant discovery in human DNA sequencing data and genome-wide association analyses to better understand inherited and somatic risk factors of childhood hematological malignancies, especially acute lymphoblastic leukemia.

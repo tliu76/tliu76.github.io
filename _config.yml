@@ -28,7 +28,7 @@ author:
   location         : "Los Angeles, CA"
   employer         :
   pubmed           : 
-  googlescholar    : # "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID" #
+  googlescholar    : "https://scholar.google.com/citations?user=Ge5lH_kAAAAJ&hl=en"
   email            : "tanxinli@usc.edu" 
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -44,7 +44,7 @@ author:
   instagram        :
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : https://www.linkedin.com/in/tanxin-liu-0b6922304/?skipRedirect=true
+  linkedin         : tanxin-casey-l-0b6922304
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
   orcid            : # e.g., "https://orcid.org/xxxx"
   pinterest        :
