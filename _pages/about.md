@@ -163,6 +163,83 @@ I have published more than 17 papers at the top journal with total <a href='http
 
 <p class="publication-more">More publications on my <a href="https://scholar.google.com/citations?user=Ge5lH_kAAAAJ&hl=en">Google Scholar profile</a>.</p>
 
+<span class='anchor' id='dl-ml'></span>
+# DL/ML
+
+<div class="publication-stack">
+  <article class="publication-card">
+    <h3><a href="https://github.com/tliu76/Convolutional-Neural-Network-CNN-">CNN Implementation and Image Classification on CIFAR-10</a></h3>
+    <p class="publication-card__badge">Deep Learning</p>
+    <p class="project-card__repo"><a href="https://github.com/tliu76/Convolutional-Neural-Network-CNN-">github.com/tliu76/Convolutional-Neural-Network-CNN-</a></p>
+    <ul>
+      <li>Built a CNN framework from scratch in Python and PyTorch, implementing core deep learning components and evaluating multiple architectures on the CIFAR-10 benchmark.</li>
+      <li>Implemented fundamental CNN modules — <strong>2D convolution, max pooling, ReLU, and linear layers</strong> — with both forward and backward passes.</li>
+      <li>Developed a custom <strong>SGD optimizer with momentum</strong>, implementing velocity-based weight updates for improved convergence.</li>
+      <li>Designed and trained three architectures — <strong>two-layer network, vanilla CNN, and a custom model</strong> — achieving accuracy above <strong>0.5</strong> on CIFAR-10 test data.</li>
+      <li>Explored <strong>imbalanced dataset</strong> challenges, designing and evaluating techniques to handle class imbalance in real-world class distributions.</li>
+      <li>Organized the codebase into reusable <code>modules</code>, <code>optimizer</code>, <code>losses</code>, <code>models</code>, and <code>config</code> components with checkpointing support.</li>
+    </ul>
+    <p class="project-card__tags"><span>Python</span><span>PyTorch</span><span>Backpropagation from scratch</span><span>CIFAR-10</span></p>
+  </article>
+
+  <article class="publication-card">
+    <h3><a href="https://github.com/tliu76/Generative-Models">Generative Models: VAE, GAN, and Diffusion on MNIST/FashionMNIST</a></h3>
+    <p class="publication-card__badge">Deep Learning</p>
+    <p class="project-card__repo"><a href="https://github.com/tliu76/Generative-Models">github.com/tliu76/Generative-Models</a></p>
+    <ul>
+      <li>Implemented four major <strong>deep generative modeling</strong> architectures in PyTorch, evaluated on the MNIST and FashionMNIST datasets with YAML-driven experiment configuration.</li>
+      <li><strong>VAE</strong> — encoder–decoder with the reparameterization trick and a combined reconstruction plus KL-divergence objective (latent dimension 32, 100 epochs); generated diverse, high-quality digit samples and achieved an FID of <strong>96.82</strong> on FashionMNIST.</li>
+      <li><strong>GAN</strong> — implemented the discriminator, adversarial loss functions, and training loop with fully connected LeakyReLU networks (latent dimension 64, 120 epochs); analyzed mode collapse on MNIST and achieved an FID of <strong>199.79</strong>.</li>
+      <li><strong>Simple diffusion and DDPM</strong> — built denoising pipelines from an MLP-based noise predictor up to a time-conditioned UNet denoiser with residual blocks, skip connections, and group normalization over 500 timesteps.</li>
+    </ul>
+    <p class="project-card__tags"><span>PyTorch</span><span>VAE</span><span>GAN</span><span>DDPM</span><span>FID evaluation</span></p>
+  </article>
+
+  <article class="publication-card">
+    <h3><a href="https://github.com/tliu76/NLP_project">NLP: Machine Translation with Seq2Seq and Transformers</a></h3>
+    <p class="publication-card__badge">Deep Learning</p>
+    <p class="project-card__repo"><a href="https://github.com/tliu76/NLP_project">github.com/tliu76/NLP_project</a></p>
+    <ul>
+      <li>Implemented and evaluated a progression of <strong>Seq2Seq architectures</strong> for neural machine translation, culminating in a full Transformer model.</li>
+      <li>Built and compared four architectures — <strong>vanilla RNN, LSTM, RNN with attention, and LSTM with attention</strong> — analyzing the impact of gating mechanisms and attention on translation quality.</li>
+      <li>Implemented a <strong>full Transformer from scratch</strong>, achieving a validation perplexity of <strong>5.75</strong>, a <strong>4.5×</strong> improvement over the best Seq2Seq model (LSTM + attention, perplexity 25.67).</li>
+      <li>Reduced validation loss by <strong>1.50</strong> and training perplexity by <strong>16.11</strong> moving from Seq2Seq to Transformer architectures.</li>
+    </ul>
+    <p class="project-card__tags"><span>PyTorch</span><span>Transformers</span><span>Attention</span><span>Machine translation</span></p>
+  </article>
+
+  <article class="publication-card">
+    <h3><a href="https://colab.research.google.com/drive/1-PiWETvjqE4GA99qnUguiVN25W5fkINC">Python-Based Variational Inference Framework for Bayesian Posterior Estimation</a></h3>
+    <p class="publication-card__badge">Statistical Computing</p>
+    <p class="publication-card__authors">University of Southern California, Spring 2025</p>
+    <ul>
+      <li>Implemented a Bayesian inference framework in Python using <strong>ELBO optimization and CAVI</strong> to approximate high-dimensional Bayesian posteriors, with application to Bayesian linear regression.</li>
+    </ul>
+    <p class="project-card__tags"><span>Python</span><span>Variational inference</span><span>Bayesian modeling</span></p>
+  </article>
+
+  <article class="publication-card">
+    <h3><a href="https://github.com/tliu76/CPP">Maze Path Finding with Graph Data Structures and DFS in C/C++</a></h3>
+    <p class="publication-card__badge">Data Structures and Algorithms</p>
+    <p class="publication-card__authors">University of Southern California, 2025</p>
+    <ul>
+      <li>Implemented a C/C++ maze solver using <strong>adjacency-list graphs and depth-first search</strong>, with vertex coloring for efficient pathfinding and cycle prevention.</li>
+    </ul>
+    <p class="project-card__tags"><span>C/C++</span><span>Graphs</span><span>DFS</span></p>
+  </article>
+
+  <article class="publication-card">
+    <h3><a href="https://github.com/tliu76/OOP">Object-Oriented Animation with PyGame — Ball Bounce</a></h3>
+    <p class="publication-card__badge">Object-Oriented Programming</p>
+    <p class="publication-card__authors">University of Southern California, Summer 2023</p>
+    <ul>
+      <li>Built an object-oriented PyGame application with modular <code>Ball</code> and <code>Drop</code> classes supporting dynamic instantiation via keyboard events.</li>
+      <li>Implemented encapsulated update/draw methods, randomized motion parameters, and automated recycling logic for continuous animation, designing reusable class interfaces for event-driven 2D games.</li>
+    </ul>
+    <p class="project-card__tags"><span>Python</span><span>PyGame</span><span>OOP</span></p>
+  </article>
+</div>
+
 <span class='anchor' id='honors-and-awards'></span>
 # Honors and Awards
 - *2020.07*: Peking University Best Thesis Award

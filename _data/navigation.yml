@@ -9,6 +9,9 @@ main:
   - title: "Publications"
     url: "/#publications"
 
+  - title: "DL/ML"
+    url: "/#dl-ml"
+
   - title: "Honors and Awards"
     url: "/#honors-and-awards"
 
