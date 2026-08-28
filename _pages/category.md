@@ -1,5 +1,5 @@
 ---
-title: "Category"
+title: "Study Notes"
 permalink: /category/
 excerpt: "Notes grouped by topic"
 author_profile: true
@@ -9,7 +9,7 @@ author_profile: true
 
 <section class="notes-hero">
   <p class="notes-hero__kicker">Knowledge Base</p>
-  <h1 class="notes-hero__title">Research Notes by Category</h1>
+  <h1 class="notes-hero__title">Study Notes by Category</h1>
   <p class="notes-hero__subtitle">Each note will open on an external notes site.</p>
   {% if notes_site_url != "" %}
   <p class="notes-hero__subtitle">Notes site: <a href="{{ notes_site_url }}" target="_blank" rel="noopener noreferrer">{{ notes_site_url }}</a></p>
