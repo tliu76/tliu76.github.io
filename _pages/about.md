@@ -254,7 +254,7 @@ I have published more than 17 papers at the top journal with total <a href='http
 - *2022.08 - present*: PhD in Genetic Epidemiology (Bioinformatics track), Keck School of Medicine, University of Southern California. GPA 3.72/4.0.
 - *2025*: Master of Science in Computer Science, Georgia Institute of Technology. GPA 3.9/4.0.
 - *2020.08 - 2022.05*: Master of Health Science in Epidemiology, Johns Hopkins Bloomberg School of Public Health. GPA 4.0/4.0.
-- *2015.09 - 2020.07*: Bachelor of Biomedicine, Minor in Psychology and Cognitive Science, Peking University Health Science Center.
+- *2015.09 - 2020.07*: Bachelor of Biomedicine, Minor in Psychology and Cognitive Science, Peking University Health Science Center. GPA 3.8/4.0.
 
 <span class='anchor' id='invited-talks'></span>
 # Talks and Presentations
