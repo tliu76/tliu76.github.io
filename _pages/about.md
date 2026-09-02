@@ -79,8 +79,8 @@ I have published more than 17 papers at the top journal with total <a href='http
 - *2026.05*: Our preprint on RAG-mediated structural variation and relapse risk in acute lymphoblastic leukemia is out on medRxiv.
 - *2025.08*: I passed my qualifying exam.
 
-<span class='anchor' id='methods-development'></span>
-# Methods Development
+<span class='anchor' id='side-project'></span>
+# Side Project
 
 <div class="publication-stack">
   <article class="publication-card">

@@ -6,8 +6,8 @@ main:
   - title: "News"
     url: "/#news"
 
-  - title: "Methods Development"
-    url: "/#methods-development"
+  - title: "Side Project"
+    url: "/#side-project"
 
   - title: "Publications"
     url: "/#publications"
