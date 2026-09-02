@@ -75,8 +75,30 @@ I have published more than 17 papers at the top journal with total <a href='http
 
 <span class='anchor' id='news'></span>
 # News
+- *2026.08*: Two collaborative preprints on inherited predisposition to childhood B-ALL are out on bioRxiv: a <a href="https://www.biorxiv.org/content/10.64898/2026.08.06.743305v1">functional genomics screen of human B-cell differentiation</a> and a <a href="https://www.biorxiv.org/content/10.64898/2026.08.06.743308v1">single-cell multiomic map of genetic predisposition</a>.
 - *2026.05*: Our preprint on RAG-mediated structural variation and relapse risk in acute lymphoblastic leukemia is out on medRxiv.
 - *2025.08*: I passed my qualifying exam.
+
+<span class='anchor' id='methods-development'></span>
+# Methods Development
+
+<div class="publication-stack">
+  <article class="publication-card">
+    <h3><a href="/files/sv-clonality-report.html">Bayesian Inference of Structural-Variant Clonality in Leukemia Genomes</a></h3>
+    <p class="publication-card__badge">Bayesian Methods and Statistical Computing</p>
+    <p class="publication-card__authors">University of Southern California, 2026</p>
+    <p class="project-card__repo"><a href="/files/sv-clonality-report.html">Full methods report — model derivation, sampler, and three simulation experiments</a></p>
+    <ul>
+      <li>Built a <strong>Bayesian hierarchical model</strong> for the cancer cell fraction (CCF) of somatic structural variants, replacing a point-estimate pipeline that cannot express how much to trust its own numbers — motivated by a real artifact in a 1,493-sample WGS leukemia cohort, where the <em>ETV6::RUNX1</em> founding fusion (necessarily clonal) was returned at a median CCF of only 0.55&ndash;0.58.</li>
+      <li>Derived a <strong>beta-binomial read-count likelihood</strong> from an allele-counting argument, marginalizing variant multiplicity exactly rather than estimating it, and treating tumor purity as a parameter with an informative prior instead of a plug-in point estimate.</li>
+      <li>Hand-implemented a <strong>Metropolis-within-Gibbs sampler</strong> in NumPy/SciPy (no probabilistic programming language) — exact categorical and Dirichlet-conjugate updates for assignments and mixture weights, logit-scale random-walk Metropolis-Hastings with Jacobian correction for CCF and purity.</li>
+      <li>Validated convergence across four dispersed chains (split-R&#770; &lt; 1.02, ESS in the hundreds to thousands), computing diagnostics only on <strong>label-invariant quantities</strong> and summarizing clustering via a posterior similarity matrix under Binder loss.</li>
+      <li>Quantified <strong>purity-uncertainty propagation</strong> in simulation: posterior sd(CCF) widened from 0.116 to 0.141 as the purity prior's sd rose from 0.03 to 0.12, with a biased prior shifting CCF by roughly 0.03&ndash;0.05 per 0.04 of purity bias.</li>
+      <li>Benchmarked live against <strong>PyClone-VI</strong> and a VAF-ratio/GMM baseline on identical simulated cohorts, and diagnosed the performance gap — including testing and rejecting the convenient explanation — as a genuine identifiability limit plus mean-field VI's known overconfidence.</li>
+    </ul>
+    <p class="project-card__tags"><span>Python</span><span>NumPy/SciPy</span><span>MCMC</span><span>Beta-binomial mixture models</span><span>Variational inference</span><span>HPC</span></p>
+  </article>
+</div>
 
 <span class='anchor' id='publications'></span>
 # Selected Publications
@@ -134,15 +156,15 @@ I have published more than 17 papers at the top journal with total <a href='http
   </article>
 
   <article class="publication-card">
-    <h3>Single-cell multiomic mapping of genetic predisposition to childhood B-cell acute lymphoblastic leukemia</h3>
-    <p class="publication-card__badge">Submitted to Cancer Discovery, 2026</p>
-    <p class="publication-card__authors">Alexander J. Lee, Anna-Lena Neehus, Lara Wahlster, Gaurav Agarwal, Chunyan Weng, Aoi Zhang, <strong>Tanxin Liu</strong>, Samuel Shelton, Tian Ye, Leonardo della Volpe, Ofir Cohn, Mark Poeschla, Elizabeth King, Seung-Ah Ha, Alexander Turvey, Adam J. de Smith, Vijay G. Sankaran</p>
+    <h3><a href="https://www.biorxiv.org/content/10.64898/2026.08.06.743308v1">Single-cell multiomic mapping of genetic predisposition to childhood B-cell acute lymphoblastic leukemia</a></h3>
+    <p class="publication-card__badge">bioRxiv preprint, 2026</p>
+    <p class="publication-card__authors">Alexander J. Lee, Anna-Lena Neehus, Lara Wahlster, Gaurav Agarwal, Chunyan Weng, Aoi Zhang, <strong>Tanxin Liu</strong>, Samuel Shelton, Tian Ye, Leonardo della Volpe, Ofir Cohn, Mark Poeschla, Elizabeth King, Seung-Ah Ha, Alexander K. Turvey, Charleston W.K. Chiang, Joseph L. Wiemels, Adam J. de Smith, Vijay G. Sankaran</p>
   </article>
 
   <article class="publication-card">
-    <h3>A functional genomics screen of human B-cell differentiation reveals convergent mechanisms of inherited childhood leukemia predisposition</h3>
-    <p class="publication-card__badge">Manuscript in preparation, 2026</p>
-    <p class="publication-card__authors">Lara Wahlster, Anna-Lena Neehus, Alexander J. Lee, Sanchi Mazumder, Parisa Mehrzad, Sarah Black, Letizia Messa, <strong>Tanxin Liu</strong>, Chunyan Weng, Alexis Caulier, Joshua Pak, Travis Fleming, Mateusz Antoszewski, Aoi Zhang, Seung-Ah Ha, Adam J. de Smith, Vijay G. Sankaran</p>
+    <h3><a href="https://www.biorxiv.org/content/10.64898/2026.08.06.743305v1">A functional genomics screen of human B-cell differentiation reveals convergent mechanisms of inherited childhood leukemia predisposition</a></h3>
+    <p class="publication-card__badge">bioRxiv preprint, 2026</p>
+    <p class="publication-card__authors">Lara Wahlster, Anna-Lena Neehus, Alexander J. Lee, Sanchi Mazumder, Parisa Mehrzad, Sarah Black, Letizia Messa, <strong>Tanxin Liu</strong>, Chenxi Wang, Chunyan Weng, Alexis Caulier, Joshua Pak, Travis Fleming, Mateusz Antoszewski, Aoi Zhang, Seung-Ah Ha, C. Oleaga-Quintas, Adam J. de Smith, Vijay G. Sankaran</p>
   </article>
 
   <article class="publication-card">
