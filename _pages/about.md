@@ -84,10 +84,9 @@ I have published more than 17 papers at the top journal with total <a href='http
 
 <div class="publication-stack">
   <article class="publication-card">
-    <h3><a href="/files/sv-clonality-report.html">Bayesian Inference of Structural-Variant Clonality in Leukemia Genomes</a></h3>
+    <h3>Bayesian Inference of Structural-Variant Clonality in Leukemia Genomes</h3>
     <p class="publication-card__badge">Bayesian Methods and Statistical Computing</p>
     <p class="publication-card__authors">University of Southern California, 2026</p>
-    <p class="project-card__repo"><a href="/files/sv-clonality-report.html">Full methods report — model derivation, sampler, and three simulation experiments</a></p>
     <ul>
       <li>Built a <strong>Bayesian hierarchical model</strong> for the cancer cell fraction (CCF) of somatic structural variants, replacing a point-estimate pipeline that cannot express how much to trust its own numbers — motivated by a real artifact in a 1,493-sample WGS leukemia cohort, where the <em>ETV6::RUNX1</em> founding fusion (necessarily clonal) was returned at a median CCF of only 0.55&ndash;0.58.</li>
       <li>Derived a <strong>beta-binomial read-count likelihood</strong> from an allele-counting argument, marginalizing variant multiplicity exactly rather than estimating it, and treating tumor purity as a parameter with an informative prior instead of a plug-in point estimate.</li>
