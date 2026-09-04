@@ -79,26 +79,6 @@ I have published more than 17 papers at the top journal with total <a href='http
 - *2026.05*: Our preprint on RAG-mediated structural variation and relapse risk in acute lymphoblastic leukemia is out on medRxiv.
 - *2025.08*: I passed my qualifying exam.
 
-<span class='anchor' id='side-project'></span>
-# Side Project
-
-<div class="publication-stack">
-  <article class="publication-card">
-    <h3>Bayesian Inference of Structural-Variant Clonality in Leukemia Genomes</h3>
-    <p class="publication-card__badge">Bayesian Methods and Statistical Computing</p>
-    <p class="publication-card__authors">University of Southern California, 2026</p>
-    <ul>
-      <li>Built a <strong>Bayesian hierarchical model</strong> for the cancer cell fraction (CCF) of somatic structural variants, replacing a point-estimate pipeline that cannot express how much to trust its own numbers — motivated by a real artifact in a 1,493-sample WGS leukemia cohort, where the <em>ETV6::RUNX1</em> founding fusion (necessarily clonal) was returned at a median CCF of only 0.55&ndash;0.58.</li>
-      <li>Derived a <strong>beta-binomial read-count likelihood</strong> from an allele-counting argument, marginalizing variant multiplicity exactly rather than estimating it, and treating tumor purity as a parameter with an informative prior instead of a plug-in point estimate.</li>
-      <li>Hand-implemented a <strong>Metropolis-within-Gibbs sampler</strong> in NumPy/SciPy (no probabilistic programming language) — exact categorical and Dirichlet-conjugate updates for assignments and mixture weights, logit-scale random-walk Metropolis-Hastings with Jacobian correction for CCF and purity.</li>
-      <li>Validated convergence across four dispersed chains (split-R&#770; &lt; 1.02, ESS in the hundreds to thousands), computing diagnostics only on <strong>label-invariant quantities</strong> and summarizing clustering via a posterior similarity matrix under Binder loss.</li>
-      <li>Quantified <strong>purity-uncertainty propagation</strong> in simulation: posterior sd(CCF) widened from 0.116 to 0.141 as the purity prior's sd rose from 0.03 to 0.12, with a biased prior shifting CCF by roughly 0.03&ndash;0.05 per 0.04 of purity bias.</li>
-      <li>Benchmarked live against <strong>PyClone-VI</strong> and a VAF-ratio/GMM baseline on identical simulated cohorts, and diagnosed the performance gap — including testing and rejecting the convenient explanation — as a genuine identifiability limit plus mean-field VI's known overconfidence.</li>
-    </ul>
-    <p class="project-card__tags"><span>Python</span><span>NumPy/SciPy</span><span>MCMC</span><span>Beta-binomial mixture models</span><span>Variational inference</span><span>HPC</span></p>
-  </article>
-</div>
-
 <span class='anchor' id='publications'></span>
 # Selected Publications
 
@@ -287,3 +267,23 @@ I have published more than 17 papers at the top journal with total <a href='http
 - **Bioinformatics**: GATK, TCGA, GDC, SAMtools, PLINK, BioPython, Snakemake, Mamba, Conda, Bioconductor, AWS, Singularity, Docker.
 - **Machine learning**: deep learning, classical machine learning, variational inference, object-oriented programming.
 - **Programming**: Python, R, Snakemake, Linux/Unix, SAS, C++, Java.
+
+<span class='anchor' id='side-project'></span>
+# Side Project
+
+<div class="publication-stack">
+  <article class="publication-card">
+    <h3>Bayesian Inference of Structural-Variant Clonality in Leukemia Genomes</h3>
+    <p class="publication-card__badge">Bayesian Methods and Statistical Computing</p>
+    <p class="publication-card__authors">University of Southern California, 2026</p>
+    <ul>
+      <li>Built a <strong>Bayesian hierarchical model</strong> for the cancer cell fraction (CCF) of somatic structural variants, replacing a point-estimate pipeline that cannot express how much to trust its own numbers — motivated by a real artifact in a 1,493-sample WGS leukemia cohort, where the <em>ETV6::RUNX1</em> founding fusion (necessarily clonal) was returned at a median CCF of only 0.55&ndash;0.58.</li>
+      <li>Derived a <strong>beta-binomial read-count likelihood</strong> from an allele-counting argument, marginalizing variant multiplicity exactly rather than estimating it, and treating tumor purity as a parameter with an informative prior instead of a plug-in point estimate.</li>
+      <li>Hand-implemented a <strong>Metropolis-within-Gibbs sampler</strong> in NumPy/SciPy (no probabilistic programming language) — exact categorical and Dirichlet-conjugate updates for assignments and mixture weights, logit-scale random-walk Metropolis-Hastings with Jacobian correction for CCF and purity.</li>
+      <li>Validated convergence across four dispersed chains (split-R&#770; &lt; 1.02, ESS in the hundreds to thousands), computing diagnostics only on <strong>label-invariant quantities</strong> and summarizing clustering via a posterior similarity matrix under Binder loss.</li>
+      <li>Quantified <strong>purity-uncertainty propagation</strong> in simulation: posterior sd(CCF) widened from 0.116 to 0.141 as the purity prior's sd rose from 0.03 to 0.12, with a biased prior shifting CCF by roughly 0.03&ndash;0.05 per 0.04 of purity bias.</li>
+      <li>Benchmarked live against <strong>PyClone-VI</strong> and a VAF-ratio/GMM baseline on identical simulated cohorts, and diagnosed the performance gap — including testing and rejecting the convenient explanation — as a genuine identifiability limit plus mean-field VI's known overconfidence.</li>
+    </ul>
+    <p class="project-card__tags"><span>Python</span><span>NumPy/SciPy</span><span>MCMC</span><span>Beta-binomial mixture models</span><span>Variational inference</span><span>HPC</span></p>
+  </article>
+</div>

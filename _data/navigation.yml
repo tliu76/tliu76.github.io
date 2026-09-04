@@ -6,9 +6,6 @@ main:
   - title: "News"
     url: "/#news"
 
-  - title: "Side Project"
-    url: "/#side-project"
-
   - title: "Publications"
     url: "/#publications"
 
@@ -29,6 +26,9 @@ main:
 
   - title: "Skills"
     url: "/#skills"
+
+  - title: "Side Project"
+    url: "/#side-project"
 
   - title: "Study Notes"
     url: "/category/"
