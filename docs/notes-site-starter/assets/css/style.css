@@ -1,0 +1,64 @@
+:root {
+  --bg: #f4f7fb;
+  --surface: #ffffff;
+  --text: #1f2937;
+  --muted: #5b6b7f;
+  --line: #d5deea;
+  --accent: #0f766e;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "IBM Plex Sans", "Segoe UI", Arial, sans-serif;
+  color: var(--text);
+  background: radial-gradient(circle at 18% -10%, #d9edf6 0%, transparent 40%), var(--bg);
+}
+
+.container {
+  width: min(900px, calc(100% - 2rem));
+  margin: 0 auto;
+}
+
+.site-header {
+  border-bottom: 1px solid var(--line);
+  background: var(--surface);
+}
+
+.brand {
+  display: inline-block;
+  padding: 0.9rem 0;
+  color: var(--accent);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.content {
+  margin-top: 1.2rem;
+  margin-bottom: 3rem;
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--surface);
+}
+
+h1 {
+  margin-top: 0;
+}
+
+a {
+  color: #0b5f95;
+}
+
+a:hover {
+  color: #083f63;
+}
+
+.note-meta {
+  margin-top: 1rem;
+  color: var(--muted);
+  font-size: 0.92rem;
+}

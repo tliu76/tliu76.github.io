@@ -1,0 +1,8 @@
+title: "Tanxin Liu Notes"
+description: "Notes on genetics, linear algebra, and probabilistic modeling"
+url: "https://YOUR-NOTES-SITE.github.io"
+baseurl: ""
+markdown: kramdown
+permalink: pretty
+exclude:
+  - README.md
